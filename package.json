@@ -37,7 +37,6 @@
 	},
 	"description": "Contexts for GramIO framework",
 	"scripts": {
-		"prepare": "pkgroll",
 		"type": "tsc --noEmit",
 		"lint": "bunx @biomejs/biome check ./src",
 		"lint:fix": "bun lint --apply",
